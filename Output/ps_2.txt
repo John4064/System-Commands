@@ -1,0 +1,6 @@
+  UID   PID  PPID        F CPU PRI NI       SZ    RSS WCHAN     S             ADDR TTY           TIME CMD
+  501 14539 14537     4006   0  31  0  4297412   1932 -      S+                  0 ttys001    0:00.16 -zsh
+  501 16408 14963     4006   0  31  0  4289236   2140 -      Ss                  0 ttys002    0:00.15 /bin/zsh --login -i
+  501 16433 16408     4006   0  31  0  4288804   1340 -      S+                  0 ttys002    0:00.01 /bin/zsh /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/build.sh ./Output/ ./Commands/commands1.txt ./Commands/commands2.txt ./Commands/commands3.txt
+  501 16438 16433     4006   0  31  0  4269308    720 -      S+                  0 ttys002    0:00.00 ./prog03_v1 ./Output//ps_2^B.txt /commands1.txt
+  501 16443 16438     4006   0  31  0  4280248   1048 -      S+                  0 ttys002    0:00.01 sh -c ps -l >> ./Output//ps_2^B.txt

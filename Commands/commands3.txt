@@ -1,0 +1,4 @@
+ls -la
+ps -a
+du -H
+ipconfig ifcount

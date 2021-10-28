@@ -1,0 +1,3 @@
+ls -la
+ipconfig ifcount
+ipconfig ifcount
