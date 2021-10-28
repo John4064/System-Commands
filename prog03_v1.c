@@ -68,17 +68,17 @@ void execFil(FILE *fptr, char* outP){
             //Temp file path to set as n+1 if found
             char tempP[255];
             strcpy(tempP,outP);
-            strcat(outP,"_1.txt");
+            strcat(outP,"_1.out");
             //Temporary counters
             int count =1;
             char tempCounter;
-            while( access( outP, F_OK ) != -1){
+            while( access(outP,F_OK) != -1){
                 count++;
                 strcpy(outP,tempP);
                 strcat(outP,"_");
                 tempCounter=count+'0';
                 strcat(outP,&tempCounter);
-                strcat(outP,".txt");
+                strcat(outP,".out");
             }
             outF = fopen(outP, "w+");
             //If file created Fine then print the command to

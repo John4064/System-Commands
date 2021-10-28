@@ -11,7 +11,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="" />
+    <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commands/commands2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Commands/commands2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/du_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ipconfig_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ipconfig_2.txt" beforePathEscaped="$PROJECT_DIR$/Output/ipconfig_2#2#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ipconfig_3.txt" beforePathEscaped="$PROJECT_DIR$/Output/ipconfig_3#3#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ls_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ls_2.txt" beforePathEscaped="$PROJECT_DIR$/Output/ls_2#2#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ls_3.txt" beforePathEscaped="$PROJECT_DIR$/Output/ls_3#3#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ls_4.txt" beforePathEscaped="$PROJECT_DIR$/Output/ls_4#4#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ps_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ps_2.txt" beforePathEscaped="$PROJECT_DIR$/Output/ps_2#2#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/ps_3.txt" beforePathEscaped="$PROJECT_DIR$/Output/ps_3#3#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v1" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v1.c" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v1.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +54,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Shell Script.Run">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -58,7 +76,7 @@
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/build.sh" />
-      <option name="SCRIPT_OPTIONS" value="&quot;./Output/&quot; &quot;./Commands/commands1.txt&quot; &quot;./Commands/commands2.txt&quot; &quot;./Commands/commands3.txt&quot;" />
+      <option name="SCRIPT_OPTIONS" value="&quot;./Output&quot; &quot;./Commands/commands1.txt&quot; &quot;./Commands/commands2.txt&quot; &quot;./Commands/commands3.txt&quot;" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
@@ -82,11 +100,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635463975081</updated>
-      <workItem from="1635463977777" duration="163000" />
+      <workItem from="1635463977777" duration="871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

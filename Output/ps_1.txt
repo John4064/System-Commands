@@ -1,8 +1,0 @@
-  PID TTY           TIME CMD
-14537 ttys001    0:01.01 login -pf john4064
-14539 ttys001    0:00.16 -zsh
-16408 ttys002    0:00.15 /bin/zsh --login -i
-16433 ttys002    0:00.01 /bin/zsh /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/build.sh ./Output/ ./Commands/commands1.txt ./Commands/commands2.txt ./Commands/commands3.txt
-16438 ttys002    0:00.00 ./prog03_v1 ./Output//ps_1.txt s/commands1.txt
-16441 ttys002    0:00.00 sh -c ps -a >> ./Output//ps_1.txt
-16442 ttys002    0:00.01 ps -a

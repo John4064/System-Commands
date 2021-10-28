@@ -4,7 +4,7 @@
 #Remeber $# number of arguments
 #$n ex. $1 is out to access arguments
 #if $1 contains a command we can execute it
-rm ./Output/*.txt
+rm ./Output/*.out
 if test ! -d $1
 then
   echo "Could not find Output Directory"

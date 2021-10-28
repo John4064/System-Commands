@@ -1,4 +1,0 @@
-ls_1.txt
-ls_2.txt
-ps_1.txt
-ps_2.txt

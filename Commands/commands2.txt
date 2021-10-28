@@ -1,3 +1,5 @@
 ls -la
 ipconfig ifcount
-ipconfig ifcount
+echo 4
+echo 60
+gcc prog06 -o dan
