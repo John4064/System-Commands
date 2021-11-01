@@ -11,24 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commands/commands2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Commands/commands2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/du_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ipconfig_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ipconfig_2.txt" beforePathEscaped="$PROJECT_DIR$/Output/ipconfig_2#2#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ipconfig_3.txt" beforePathEscaped="$PROJECT_DIR$/Output/ipconfig_3#3#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ls_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ls_2.txt" beforePathEscaped="$PROJECT_DIR$/Output/ls_2#2#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ls_3.txt" beforePathEscaped="$PROJECT_DIR$/Output/ls_3#3#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ls_4.txt" beforePathEscaped="$PROJECT_DIR$/Output/ls_4#4#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ps_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ps_2.txt" beforePathEscaped="$PROJECT_DIR$/Output/ps_2#2#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/ps_3.txt" beforePathEscaped="$PROJECT_DIR$/Output/ps_3#3#.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v1" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v1.c" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v1.c" afterDir="false" />
-    </list>
+    <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +40,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Shell Script.Run">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="assign3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assign3" TARGET_NAME="assign3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assign3" RUN_TARGET_NAME="assign3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -101,6 +79,10 @@
       <option name="presentableId" value="Default" />
       <updated>1635463975081</updated>
       <workItem from="1635463977777" duration="871000" />
+      <workItem from="1635476377864" duration="1687000" />
+      <workItem from="1635481891948" duration="244000" />
+      <workItem from="1635723736177" duration="1458000" />
+      <workItem from="1635732411921" duration="5403000" />
     </task>
     <servers />
   </component>
@@ -117,5 +99,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

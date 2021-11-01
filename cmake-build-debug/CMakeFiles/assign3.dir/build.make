@@ -66,27 +66,27 @@ include CMakeFiles/assign3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/assign3.dir/flags.make
 
-CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o: CMakeFiles/assign3.dir/flags.make
-CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o: /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o -c /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c
+CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o: CMakeFiles/assign3.dir/flags.make
+CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o: /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o -c /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c
 
-CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c > CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i
+CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c > CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i
 
-CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c -o CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s
+CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c -o CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s
 
 # Object files for target assign3
 assign3_OBJECTS = \
-"CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o"
+"CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o"
 
 # External object files for target assign3
 assign3_EXTERNAL_OBJECTS =
 
-assign3: CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o
+assign3: CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o
 assign3: CMakeFiles/assign3.dir/build.make
 assign3: CMakeFiles/assign3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable assign3"

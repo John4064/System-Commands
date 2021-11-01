@@ -2,7 +2,6 @@
 //10.27.21
 //Process creation without fork and exec
 //Version 2
-//THIS ONE MUST INCLUDE FORK
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -46,7 +45,8 @@ FILE *openF(char* arr){
 }
 void execFil(FILE *fptr, char* outP){
     /*@param: Requires a file pointer, string to output path
-     * Going to iterate thru said file
+     * Going to iterate thru said file and fork each command to a
+     * Seperate Process
      * return: Nothing
      */
     char original[255];
@@ -57,42 +57,48 @@ void execFil(FILE *fptr, char* outP){
     }else{
         char line[255];
         while(fgets(line,sizeof(line),fptr)){
-            //This runs the commands
-            FILE *outF;
-            strtok(line,"\n");
-            //Temporary output file
-            //Stringconcaction to create file name
-            char tempL[255];
-            strcpy(tempL,line);
-            strcat(outP,"/");
-            strcat(outP,strtok(line," "));
-            //Temp file path to set as n+1 if found
-            char tempP[255];
-            strcpy(tempP,outP);
-            strcat(outP,"_1.txt");
-            //Temporary counters
-            int count =1;
-            char tempCounter;
-            while( access( outP, F_OK ) != -1){
-                count++;
-                strcpy(outP,tempP);
-                strcat(outP,"_");
-                tempCounter=count+'0';
-                strcat(outP,&tempCounter);
-                strcat(outP,".txt");
-            }
-            outF = fopen(outP, "w+");
-            //If file created Fine then print the command to
-            if(outF){
-                //Error only saves the last Command
-                //String Concoction to create command >> file
-                strcat(tempL," >> ");
-                strcat(tempL, outP);
-                printf("Executed: %s\n",tempL);
-                system(tempL);
-            }
-            strcpy(outP,original);
-            fclose(outF);
+            //Fork the program child process will execute what we want
+            //Then exit and and continue along the process
+            int id =fork();
+            if(id==0){
+                FILE *outF;
+                strtok(line,"\n");
+                //Temporary output file
+                //Stringconcaction to create file name
+                char tempL[255];
+                strcpy(tempL,line);
+                strcat(outP,"/");
+                strcat(outP,strtok(line," "));
+                //Temp file path to set as n+1 if found
+                char tempP[255];
+                strcpy(tempP,outP);
+                strcat(outP,"_1.out");
+                //Temporary counters
+                int count =1;
+                char tempCounter;
+                while( access(outP,F_OK) != -1){
+                    count++;
+                    strcpy(outP,tempP);
+                    strcat(outP,"_");
+                    tempCounter=count+'0';
+                    strcat(outP,&tempCounter);
+                    strcat(outP,".out");
+                }
+                outF = fopen(outP, "w+");
+                //If file created Fine then print the command to
+                if(outF){
+                    //String Concoction to create command >> file
+                    strcat(tempL," >> ");
+                    strcat(tempL, outP);
+                    //Redundent Printf to let me know in console it worked
+                    //printf("Executed: %s\n",tempL);
+                    //printf("%s \n",tempL);
+                    system(tempL);
+                }
+                strcpy(outP,original);
+                fclose(outF);
+                exit(23);
+            }//Else Here would be for the parent
         }
     }
     return;
@@ -108,10 +114,10 @@ int main(int argc, char *argv[]) {
         tFil=openF(filPath[count]);
         //Gives this a command File
         execFil(tFil,argv[1]);
-        fclose(tFil);
+        fclose(tFil);\
         count++;
     }
-    //ALWAYS FREE
+    //Free up the string array filpath
     free(filPath);
     return 0;
 }

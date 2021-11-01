@@ -129,29 +129,29 @@ assign3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/build
 .PHONY : assign3/fast
 
-Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.o: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o
-.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.o
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.o: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.o
 
 # target to build an object file
-Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o
-.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.o
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.o
 
-Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.i: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i
-.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.i
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.i: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.i
 
 # target to preprocess a source file
-Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i
-.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.i
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.i
 
-Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.s: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s
-.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.s
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.s: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.s
 
 # target to generate assembly for a file
-Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s
-.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c.s
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... assign3"
-	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.o"
-	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.i"
-	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.s"
+	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.o"
+	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.i"
+	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.s"
 .PHONY : help
 
 
