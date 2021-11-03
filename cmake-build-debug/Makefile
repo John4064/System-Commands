@@ -153,6 +153,30 @@ Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s
 .PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c.s
 
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.o: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.o
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.o
+
+# target to build an object file
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.o
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.o
+
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.i: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.i
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.i
+
+# target to preprocess a source file
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.i
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.i
+
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.s: Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.s
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.s
+
+# target to generate assembly for a file
+Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assign3.dir/build.make CMakeFiles/assign3.dir/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.s
+.PHONY : Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.o"
 	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.i"
 	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.s"
+	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.o"
+	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.i"
+	@echo "... Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v3.s"
 .PHONY : help
 
 

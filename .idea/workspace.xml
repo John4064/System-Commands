@@ -11,7 +11,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="" />
+    <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commands/commands1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Commands/commands1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assign3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/assign3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/assign3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v2" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v2.c" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v2.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +70,7 @@
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/build.sh" />
-      <option name="SCRIPT_OPTIONS" value="&quot;./Output&quot; &quot;./Commands/commands1.txt&quot; &quot;./Commands/commands2.txt&quot; &quot;./Commands/commands3.txt&quot;" />
+      <option name="SCRIPT_OPTIONS" value="&quot;./Output&quot; &quot;./Commands/commands1.txt&quot; &quot;./Commands/commands2.txt&quot;" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
@@ -82,7 +98,11 @@
       <workItem from="1635476377864" duration="1687000" />
       <workItem from="1635481891948" duration="244000" />
       <workItem from="1635723736177" duration="1458000" />
-      <workItem from="1635732411921" duration="5403000" />
+      <workItem from="1635732411921" duration="6478000" />
+      <workItem from="1635746172935" duration="2517000" />
+      <workItem from="1635828717500" duration="130000" />
+      <workItem from="1635892543601" duration="192000" />
+      <workItem from="1635952784956" duration="2259000" />
     </task>
     <servers />
   </component>

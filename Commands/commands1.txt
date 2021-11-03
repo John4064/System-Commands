@@ -2,4 +2,3 @@ ls -l
 ps -a
 ps -l
 ls ./Output
-gcc doug.c -o greg

@@ -1,7 +1,8 @@
 //John Parkhurst
 //10.27.21
-//Process creation without exec only fork
-//Version 2
+//Process creation with fork but improved output for neatness
+//Was suppose to have execvp call but stuff changes
+//Version 3
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -58,13 +59,13 @@ void execFil(FILE *fptr, char* outP){
         char line[255];
         while(fgets(line,sizeof(line),fptr)){
             //Fork the program child process will execute what we want
-            //Then exit and and continue along the process
+            //Then exit and continue along the process
             int id =fork();
             if(id==0){
                 FILE *outF;
                 strtok(line,"\n");
                 //Temporary output file
-                //Stringconcaction to create file name
+                //String concaction to create file name
                 char tempL[255];
                 strcpy(tempL,line);
                 strcat(outP,"/");
@@ -90,9 +91,6 @@ void execFil(FILE *fptr, char* outP){
                     //String Concoction to create command >> file
                     strcat(tempL," >> ");
                     strcat(tempL, outP);
-                    //Redundent Printf to let me know in console it worked
-                    //printf("Executed: %s\n",tempL);
-                    //printf("%s \n",tempL);
                     system(tempL);
                 }
                 strcpy(outP,original);
