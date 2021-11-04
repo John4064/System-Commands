@@ -1,7 +1,7 @@
 //John Parkhurst
 //10.27.21
 //Process creation with fork but improved output for neatness
-//Was suppose to have execvp call but stuff changes
+//Was supposed to have execvp call but stuff changes
 //Version 3
 #include <stdio.h>
 #include <stdlib.h>
@@ -33,7 +33,7 @@ FILE *openF(char* arr){
     //Opens the file
     //return: none
     FILE *fptr;
-    //REMEBER TO USE DOULBE QUOTES
+    //REMEMBER TO USE DOUBLE QUOTES
     fptr = fopen(arr,"r");
     if(fptr ==NULL){
         //Use put to not include null character
@@ -44,10 +44,19 @@ FILE *openF(char* arr){
         return fptr;
     }
 }
+
+void logFile(char *logName, char *command){
+    FILE *logF;
+    logF = fopen(logName, "a");
+    if(logF){
+        fprintf(logF,"%s\n",command);
+    }
+    fclose(logF);
+}
 void execFil(FILE *fptr, char* outP){
     /*@param: Requires a file pointer, string to output path
-     * Going to iterate thru said file and fork each command to a
-     * Seperate Process
+     * Going to iterate through said file and fork each command to a
+     * Separate Process
      * return: Nothing
      */
     char original[255];
@@ -63,12 +72,20 @@ void execFil(FILE *fptr, char* outP){
             int id =fork();
             if(id==0){
                 FILE *outF;
+                //NExt 30 Lines is a mess of string concaction
                 strtok(line,"\n");
                 //Temporary output file
-                //String concaction to create file name
                 char tempL[255];
+                //Save the command itself
+                char comL[255];
                 strcpy(tempL,line);
                 strcat(outP,"/");
+                //FILE NAME FOR LOG FILE
+                char logName[255];
+                strcpy(logName,outP);
+                strcat(logName,"log.out");
+                //putting the command seperate
+                strcpy(comL,line);
                 strcat(outP,strtok(line," "));
                 //Temp file path to set as n+1 if found
                 char tempP[255];
@@ -91,9 +108,14 @@ void execFil(FILE *fptr, char* outP){
                     //String Concoction to create command >> file
                     strcat(tempL," >> ");
                     strcat(tempL, outP);
+                    //output folder
                     system(tempL);
                 }
+                //log all the Calls
+                logFile(logName,comL);
+
                 strcpy(outP,original);
+
                 fclose(outF);
                 exit(1);
             }else{
@@ -115,7 +137,7 @@ int main(int argc, char *argv[]) {
         tFil=openF(filPath[count]);
         //Gives this a command File
         execFil(tFil,argv[1]);
-        fclose(tFil);\
+        fclose(tFil);
         count++;
     }
     //Free up the string array filpath

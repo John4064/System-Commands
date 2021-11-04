@@ -26,9 +26,9 @@ do
 done
 #gcc prog03_v1.c -o prog03_v1
 #./prog03_v1 $1 $MYPATH
-gcc prog03_v2.c -o prog03_v2
-./prog03_v2 $1 $MYPATH
-#gcc prog03_v3.c -o prog03_v3
-#./prog03_v3 $1 $MYPATH
+#gcc prog03_v2.c -o prog03_v2
+#./prog03_v2 $1 $MYPATH
+gcc prog03_v3.c -o prog03_v3
+./prog03_v3 $1 $MYPATH
 echo "done"
 #Tee or >
