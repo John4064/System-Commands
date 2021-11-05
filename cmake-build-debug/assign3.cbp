@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v1.c">
+			<Option target="assign3"/>
+		</Unit>
 		<Unit filename="/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/prog03_v2.c">
 			<Option target="assign3"/>
 		</Unit>

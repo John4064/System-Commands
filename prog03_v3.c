@@ -86,6 +86,10 @@ void extraCredit(char *comm){
         }
 }
 void logFile(char *logName, char *command){
+    /* @param: logName is where you what name would you like the log, command is char array of the command
+     *
+     */
+    //I could not figure this part out unfortunately
     FILE *logF;
     logF = fopen(logName, "a");
     if(logF){
@@ -153,9 +157,8 @@ void execFil(FILE *fptr, char* outP){
                 }
                 //log all the Calls
                 logFile(logName,comL);
-
+                //Resets the output Path to original
                 strcpy(outP,original);
-
                 fclose(outF);
                 exit(1);
             }else{
@@ -167,23 +170,26 @@ void execFil(FILE *fptr, char* outP){
     return;
 }
 int main(int argc, char *argv[]) {
-
-    char **filPath;
-    filPath = readP(argv[2]);
-    int count=0;
-    while(filPath[count] != NULL){
-        //temp file and open
-        FILE *tFil;
-        tFil=openF(filPath[count]);
-        //Gives this a command File
-        execFil(tFil,argv[1]);
-        fclose(tFil);
-        count++;
+    //Iterate all commands
+    for(int i =2; i <argc; i++){
+        char **filPath;
+        filPath = readP(argv[i]);
+        int count=0;
+        while(filPath[count] != NULL){
+            //temp file and open
+            FILE *tFil;
+            tFil=openF(filPath[count]);
+            //Gives this a command File
+            execFil(tFil,argv[1]);
+            fclose(tFil);
+            count++;
+        }
+        //Free up the string array filpath
+        free(filPath);
     }
     //IF YOU WANT TO SEE EXTRA CREDIT RUN
     //UNCOMMENT NEXT LINE
     //extraCredit("ls -la");
-    //Free up the string array filpath
-    free(filPath);
+
     return 0;
 }

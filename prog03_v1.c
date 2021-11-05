@@ -87,7 +87,6 @@ void execFil(FILE *fptr, char* outP){
                 //String Concoction to create command >> file
                 strcat(tempL," >> ");
                 strcat(tempL, outP);
-                printf("Executed: %s\n",tempL);
                 system(tempL);
             }
             strcpy(outP,original);
@@ -97,20 +96,24 @@ void execFil(FILE *fptr, char* outP){
     return;
 }
 int main(int argc, char *argv[]) {
-
-    char **filPath;
-    filPath = readP(argv[2]);
-    int count=0;
-    while(filPath[count] != NULL){
-        //temp file and open
-        FILE *tFil;
-        tFil=openF(filPath[count]);
-        //Gives this a command File
-        execFil(tFil,argv[1]);
-        fclose(tFil);
-        count++;
+    //Iterate all commands
+    for(int i =2; i <argc; i++){
+        char **filPath;
+        //Argv[i]
+        filPath = readP(argv[i]);
+        int count=0;
+        while(filPath[count] != NULL){
+            //temp file and open
+            FILE *tFil;
+            tFil=openF(filPath[count]);
+            //Gives this a command File
+            execFil(tFil,argv[1]);
+            fclose(tFil);
+            count++;
+        }
+        //ALWAYS FREE
+        free(filPath);
     }
-    //ALWAYS FREE
-    free(filPath);
+
     return 0;
 }

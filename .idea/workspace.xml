@@ -12,9 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/buildandxecute.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/main" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v1.c" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v2" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog03_v2.c" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog03_v3" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog03_v3.c" beforeDir="false" afterPath="$PROJECT_DIR$/prog03_v3.c" afterDir="false" />
     </list>
@@ -46,21 +51,26 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Shell Script.Run">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="assign3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assign3" TARGET_NAME="assign3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assign3" RUN_TARGET_NAME="assign3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/build.sh" />
-      <option name="SCRIPT_OPTIONS" value="&quot;./Output&quot; &quot;./Commands/commands1.txt&quot; &quot;./Commands/commands2.txt&quot;" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/buildandxecute.sh" />
+      <option name="SCRIPT_OPTIONS" value="&quot;./Output&quot; &quot;./Commands/commands1.txt&quot; &quot;./Commands/commands2.txt&quot; &quot;./Commands/commands3.txt&quot;" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
@@ -95,6 +105,7 @@
       <workItem from="1635952784956" duration="2259000" />
       <workItem from="1635983018162" duration="9985000" />
       <workItem from="1636048663859" duration="2109000" />
+      <workItem from="1636125457607" duration="3307000" />
     </task>
     <servers />
   </component>
