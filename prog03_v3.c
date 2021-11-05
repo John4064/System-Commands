@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include<unistd.h>
-
+#include <fcntl.h>
 char **readP(char *commands){
     /*param: commands is a pointer to a string
      * return: an array of strings(the file paths)
@@ -44,7 +44,47 @@ FILE *openF(char* arr){
         return fptr;
     }
 }
+void extraCredit(char *comm){
+    /* param: nothing
+     *  This is for Extra credit 2.8
+     *  did not get to fully implement it
+     *  Check report for synopsis of this
+     * return: nothing
+     */
+        int pid = fork();
+        if(pid==0){
+            //Argument list for exevp
+            //Fill in Comm to argument list with
+            //arglist[i]= strtok(comm,"")
+            char* argument_list[] = {"ls","-la", NULL};
+            //We set filename = to du_1.out,du_2.out as needed
+            //Here is eclog.out for testing purposes
 
+            const char* filename = "eclog.out";
+            //Make sure filename not null
+            if(filename) {
+                //opens file for writing only
+                int fd = open(filename, O_WRONLY, 0666);
+                //WE open up Pipe with dup2
+                //Redirecting all output//errors
+                //To the File fd
+                dup2(fd, STDOUT_FILENO);
+                dup2(fd,STDERR_FILENO);
+                //Right here we exec
+                execvp(argument_list[0],argument_list);
+                close(fd);
+                printf("ONLY IF ERROR\n");
+                printf("CHECK EXEC PARAMATERS\n");
+                exit(-23);
+            }else{
+                printf("ERROR OPENING LOG FILE\n");
+                exit(-23);
+            }
+        }else{
+            waitpid(pid,&pid, 1);
+            printf("Extra Credit is Done\n");
+        }
+}
 void logFile(char *logName, char *command){
     FILE *logF;
     logF = fopen(logName, "a");
@@ -140,6 +180,9 @@ int main(int argc, char *argv[]) {
         fclose(tFil);
         count++;
     }
+    //IF YOU WANT TO SEE EXTRA CREDIT RUN
+    //UNCOMMENT NEXT LINE
+    //extraCredit("ls -la");
     //Free up the string array filpath
     free(filPath);
     return 0;

@@ -47,6 +47,6 @@ void extracredit(){
     }
 }
 int main() {
-    exec();
+    extracredit();
     return 0;
 }
