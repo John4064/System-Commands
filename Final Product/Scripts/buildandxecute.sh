@@ -4,7 +4,6 @@
 #Remeber $# number of arguments
 #$n ex. $1 is out to access arguments
 #if $1 contains a command we can execute it
-rm ./Output/*.out
 if test ! -d $1
 then
   echo "Could not find Output Directory"
@@ -24,11 +23,11 @@ do
       fi
     fi
 done
-gcc prog03_v1.c -o prog03_v1
-gcc prog03_v2.c -o prog03_v2
-gcc prog03_v3.c -o prog03_v3
-#./prog03_v1 $1 $MYPATH
-#./prog03_v2 $1 $MYPATH
-#./prog03_v3 $1 $MYPATH
+gcc ../Programs/prog03_v1.c -o prog03_v1
+gcc ../Programs/prog03_v2.c -o prog03_v2
+gcc ../Programs/prog03_v3.c -o prog03_v3
+#../Programs/prog03_v1.c $1 $MYPATH
+#../Programs/prog03_v2.c $1 $MYPATH
+#../Programs/prog03_v3.c $1 $MYPATH
 echo "done"
 #Tee or >

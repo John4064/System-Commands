@@ -173,11 +173,13 @@ int main(int argc, char *argv[]) {
     //Iterate all commands
     for(int i =2; i <argc; i++){
         char **filPath;
+        //readP is excessive; however it was designed for buildandexecute script
         filPath = readP(argv[i]);
         int count=0;
         while(filPath[count] != NULL){
             //temp file and open
             FILE *tFil;
+            //Open Said file
             tFil=openF(filPath[count]);
             //Gives this a command File
             execFil(tFil,argv[1]);

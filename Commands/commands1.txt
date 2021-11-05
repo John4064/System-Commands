@@ -1,4 +1,0 @@
-ls -l
-ps -a
-ps -l
-ls ./Output

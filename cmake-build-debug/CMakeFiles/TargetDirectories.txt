@@ -1,3 +1,0 @@
-/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/john4064/Desktop/Workspace/C/assign3/System-Commands/cmake-build-debug/CMakeFiles/assign3.dir

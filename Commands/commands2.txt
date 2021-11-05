@@ -1,4 +1,0 @@
-ls -la
-ipconfig ifcount
-echo 4
-echo 60
