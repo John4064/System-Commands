@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="assign3" targetName="assign3" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -12,20 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0043cbc-69e6-44aa-93b2-3259491aa3b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commands/commands1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commands/commands2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commands/commands3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildandxecute.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example shell/start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog03_v3.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recorder.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +40,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Shell Script.Run">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="assign3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assign3" TARGET_NAME="assign3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assign3" RUN_TARGET_NAME="assign3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -85,10 +66,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="CMake Application.assign3" />
-      <item itemvalue="Shell Script.Run" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,6 +88,7 @@
       <workItem from="1636048663859" duration="2109000" />
       <workItem from="1636125457607" duration="4712000" />
       <workItem from="1636132428458" duration="129000" />
+      <workItem from="1636485132913" duration="164000" />
     </task>
     <servers />
   </component>
