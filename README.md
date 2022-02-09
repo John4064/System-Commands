@@ -5,7 +5,7 @@ This is a program that will take a command list(txt) and execute all the command
 
 ## Installation
 
-Clone the repo and from the src directory run the start scipt
+Clone the repo and from the src scripts directory run the start scipt
 ```bash
 bash start.sh
 ```
