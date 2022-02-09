@@ -5,24 +5,13 @@ This is a program that will take a command list(txt) and execute all the command
 
 ## Installation
 
-Clone the repo and from the src scripts directory run the start scipt
-```bash
-bash start.sh
-```
+Clone the repo
+
 
 ## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+From the src scripts directory run the start scipt
+```bash
+bash buildandxecute.sh
 ```
 
 ## Contributing
