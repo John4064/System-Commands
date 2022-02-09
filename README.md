@@ -1,5 +1,5 @@
 
-# Foobar
+# System Commands
 
 This is a program that will take a command list(txt) and execute all the commands in C and print the output only to the desired output directory. Version 2(prog03_v2) does the same exact thing but uses fork to optimize it a bit. Version 3(prog03_v3) Does the exact same thing but uses fork and exec to optimize the application!
 
